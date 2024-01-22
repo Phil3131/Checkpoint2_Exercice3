@@ -1,10 +1,16 @@
 Q.3.1 Quel est le matériel réseau A ?
 Quel est son rôle sur ce schéma vis-à-vis des ordinateurs ?
 
+Il s'agit d'un switch qui relie les ordinateurs entre eux. Une sorte de "multprise" reseau. 
+
 Q.3.2 Quel est le matériel réseau B ?
 Quel est son rôle pour le réseau 10.10.0.0/16 ?
 
+Il s'agit d'un routeur qui permet de faire comuniquer le reseau 10.10.0.0/16 vers le routeur 2 .
+
 Q.3.3 Que signifie f0/0 et g1/0 sur l’élément B ?
+
+Il s'agit de la pate Interne du routeur pour f0/0 et Externe pour g1/0 
 
 Q.3.4 Pour l'ordinateur PC2, que représente /16 dans son adresse IP ?
 
@@ -12,13 +18,32 @@ Q.3.5 Pour ce même ordinateur, que représente l'adresse 10.10.255.254 ?
 
 Q.3.6 Pour les ordinateur PC1, PC2, et PC5 donne :
 
-L'adresse de réseau
-La première adresse disponible
-La dernière adresse disponible
-L'adresse de diffusion
+pour PC 1 :
+Adresse de réseau : 10.10.0.0
+Première adresse disponible : 10.10.0.1
+Dernière adresse disponible : 10.10.255.254
+Adresse de diffusion : 10.10.255.255
+
+pour PC 2 :
+Adresse de réseau : 10.11.0.0
+Première adresse disponible : 10.11.80.1
+Dernière adresse disponible : 10.11.95.254
+Adresse de diffusion : 10.11.95.255
+
+pour PC 5 :
+Adresse de réseau : 10.10.0.0
+Première adresse disponible : 10.10.0.1
+Dernière adresse disponible : 10.10.255.254
+Adresse de diffusion : 10.10.255.255
+
 Q.3.7 En t'aidant des informations que tu as fourni à la question 3.6, et à l'aide de tes connaissances, indique parmi tous les ordinateurs du schéma, lesquels vont pouvoir communiquer entre-eux.
 
+PC1 PC3 PC4 PC5
+
 Q.3.8 De même, indique ceux qui vont pouvoir atteindre le réseau 172.16.5.0/24.
+
+PC1 PC3 PC4 PC5
+
 
 Q.3.9 Quel incidence y-a-t'il pour les ordinateurs PC2 et PC3 si on interverti leur ports de connexion sur le matériel A ?
 
